@@ -1,0 +1,5 @@
+print('8 + 30 + 2018')
+print ( ' Question 1 ' ) , print ( 42 * 60 + 42 )
+print ( ' Question 2 ') , print ( 10 / 1.61 )
+print ( ' Question 3 part 1 ' ) , print ( ( 10 / 1.61 ) / 42.7 )
+print ( ' Question 3 part 2 ' ) , print ( ( 10 / 1.61 ) / ( 42.7 / 60 ) )
