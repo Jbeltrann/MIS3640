@@ -4,22 +4,22 @@ If the number, n, is divisible by 4, return True; return False otherwise. Return
 """
 
 
-# def is_special(n):
+def is_special(n):
 #     """
 #     If the number, n, is divisible by 4 (for example, 2020),
 #      return True. Return False if n is divisible by 100 (for example, 300);
 #      the only exception is when n is divisible by 400(for example, 2400),
 #       return True.
 #     """
-#     if n % 4 == 0:
-#         return  True
-#     else:
-#         if n % 100 == 0:
-#             return False
-#         elif n % 400 == 0:
-#                 return True
-#         else:
-#             return False
+    if n % 4 == 0:
+        return  True
+    else:
+        if n % 100 == 0:
+            return False
+        elif n % 400 == 0:
+                return True
+        else:
+            return False
 
 # print(is_special(2020))
 # print(is_special(300))
@@ -48,12 +48,12 @@ Question 2:
 #     Returns True if either a or b is n, or if the sum or 
 #     difference or product of a and b is n. 
 #     """
-#     if a or b == n:
-#         return True
-#     elif (a+b) or (a-b) or (a*b) == n:
-#         return True
-#     else:
-#         return False
+    if a or b == n:
+        return True
+    elif (a+b) or (a-b) or (a*b) == n:
+        return True
+    else:
+        return False
 
 
 # When you've completed your function, uncomment the

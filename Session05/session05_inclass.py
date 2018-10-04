@@ -49,10 +49,7 @@ for i in range(3):
     arc(beltran, r = 100, angle = 120)
     beltran.lt(angle = 120)
 
-# turtle.mainloop()
-
-
-
+turtle.mainloop()
 
 
 # square(beltran, 200)
