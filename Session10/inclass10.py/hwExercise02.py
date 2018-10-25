@@ -1,6 +1,6 @@
 
 #append
-my_list= ['Connie', 'has', 'two']
+my_list= ['Jon', 'has', 'two']
 my_list.append('dogs one is named')
 
 # print(my_list)

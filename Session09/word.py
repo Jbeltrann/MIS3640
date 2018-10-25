@@ -69,7 +69,7 @@ def uses_all(word, required):
     takes a word and a string of required letters, and that returns True if
     the word uses all the required letters at least once.
     """
-    for letter in required:
+     letter in required:
         if letter not in word:
             return False
     return True
@@ -107,8 +107,13 @@ index = 0
 def find_abecedarian_words():
     counter = 0
     index = 0
-    if word in is_abecedarian:
-        print(word)
-        counter += 1
-    return counter 
+    current_longest_word = ' '
+    for line in fin:
+        word = line.strip()
+        if is_abecedarian(word):
+            counter += 1
+            if len(word) > len(current_longest_word):
+                current_longest_word = word
+    return counter, current_longest_word
 
+print(find_abecedarian_words())

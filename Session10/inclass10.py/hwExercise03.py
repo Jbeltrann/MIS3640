@@ -112,6 +112,3 @@ print(chop(t))
 #     # print(has_duplicates('cba'))
 #     # print(has_duplicates('abba'))
 
-
-if __name__ == '__main__':
-    main()
